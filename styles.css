@@ -1,0 +1,8 @@
+img {
+  border-radius: 10px;
+}
+
+section > main > img{
+  width: 200px; 
+  height: 200px; 
+}
