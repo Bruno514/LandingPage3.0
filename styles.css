@@ -1,17 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   font-family: 'Pacifico', cursive;
-  font-size: 6.4vh;
+  font-size: 3.4vh;
 }
 
-header, footer{
+img {
+  border-radius: 10px;
+}
+
+header, 
+footer{
   padding-top: 10px;
   color: white;
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(79,124,19,1) 35%, rgba(0,212,255,1) 100%);
-  padding-bottom: 10px;
+}
+
+section.information, 
+section.signup {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,78,121,1) 0%, rgba(0,212,255,1) 68%);   
 }
 
 nav, footer, .links, .flex-container{
@@ -31,25 +42,84 @@ header .flex-container {
   font-size: 6vh;
   font-weight: lighter;
   text-align: justify;
-  gap: 50vh;
-}
-
-header .flex-container img {
-  height: 80vh;
-  width: 80vh;
+  gap: 40vh;
 }
 
 #about-us {
-  height: 60vh;
-  width: 100vh;
+  height: auto;
+  width: 60vh;
 }
 
-img {
-  border-radius: 10px;
+#about-us h1 {
+  font-size: 7vh;
+}
+
+#about-us p {
+  font-family: 'Dancing Script', cursive;
+  font-size: 4vh;
+}
+
+header .flex-container img {
+  height: 40vh;
+  width: 50vh;
+  border-style: solid;
+  border-width: 0.5vh;
+}
+
+
+
+section.information {
+  text-align: center;
+}
+
+section.information p {
+  color: white;
+  font-weight: bolder;
+  padding-bottom: 4vh;
+}
+
+section > main {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 section > main > img{
-  width: 200px; 
-  height: 200px; 
+  width: 35vh; 
+  height: 35vh; 
+  color: white;
+  border-style: solid;
+  border-width: 0.5vh;
 }
 
+article {
+  color: white;
+  padding-left: 55vh;
+  padding-right: 55vh;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,176,204,1) 0%, rgba(121,176,204,1) 6%, rgba(121,204,149,1) 46%, rgba(204,183,121,1) 71%);   
+}
+
+article h6 { 
+  text-align: right;
+}
+
+section.signup {
+  color: white;
+  padding-left: 40vh;
+  padding-left: vb;
+  padding-right: 40vh;
+  background-color: blueviolet; 
+}
+
+section div{
+  font-size: 6vh;
+  background-color: lightblue;
+  border-radius: 10vh;
+  padding: 7vh;
+}
+
+section button {
+  align-self: center;
+}
