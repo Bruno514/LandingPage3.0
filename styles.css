@@ -4,36 +4,44 @@
   margin: 0;
   padding: 0;
   font-family: 'Pacifico', cursive;
-  font-size: 1.1em;
+  font-size: 6.4vh;
 }
 
 header, footer{
   padding-top: 10px;
   color: white;
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(79,124,19,1) 35%, rgba(0,212,255,1) 100%);
+  padding-bottom: 10px;
 }
 
-nav, .links, footer, .flex-container{
+nav, footer, .links, .flex-container{
   display: flex;
   justify-content: center;
-  font-weight: bolder;
 }
 
 #logo {
-  margin-right: 90vh;
+  margin-right: 110vh;
 }
 
 .links {
   gap: 10vh;
 }
 
-.flex-container {
-  width: 1000px;
-  justify-content: center;
+header .flex-container {
+  font-size: 6vh;
+  font-weight: lighter;
+  text-align: justify;
+  gap: 50vh;
+}
+
+header .flex-container img {
+  height: 80vh;
+  width: 80vh;
 }
 
 #about-us {
-  gap: 90vh;
+  height: 60vh;
+  width: 100vh;
 }
 
 img {
